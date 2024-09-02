@@ -4,17 +4,18 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
-const perguntas = [
+const perguntas = [VAMOS ENTENDER OQUE SÃO
+    DESASTRES NATURAIS
     {
         enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-        alternativas: [
+        alternativas: [A humanidade interfere nos desastres naturais?
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Não",
+                afirmacao: "A humanidade contribui para a intensificação e frequência de desastres naturais através de várias atividades que impactam negativamente o meio ambiente. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Sim",
+                afirmacao: "A prevenção de desastres naturais envolve uma série de medidas de preparação, mitigação e resposta que podem ser implementadas para minimizar os impactos desses eventos."
             }
         ]
     },
